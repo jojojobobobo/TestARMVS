@@ -8,7 +8,6 @@ padding:0;
 border:0;
 color:#FCC917;
 font-size: 24px;
-font-family: 'Gudea', sans-serif;
 }
 
 a {
@@ -25,9 +24,9 @@ font-weight: bold;
 height:36px;
 }
 
-.hero, .footer, .header {
-padding-left:15vw;
-padding-right: 15vw;
+.hero, .footer{
+padding-left: 5vw;
+padding-right: 10vw;
 display: flex;
 flex-flow: row nowrap;
 }
@@ -35,6 +34,9 @@ flex-flow: row nowrap;
 .header {
 padding-top: 1vw;
 padding-bottom: 1vw;
+padding-right: 5vw;
+display: flex;
+flex-flow: row nowrap;
 justify-content: space-between;
 color:#ffffff;
 font-family: 'Oswald', sans-serif;
@@ -47,13 +49,17 @@ font-family: 'Oswald', sans-serif;
 }
 
 .header_image {
-width: 15vw;
-height: 15vw;
+width: 12vw;
+height: 4.5vw;
 
 }
 
 .header_link {
-padding-left: 2vw;
+padding-top: 4vw;
+padding-left: 4vw;
+font-size: 18px;
+color:#000000;
+font-family: 'Oswald', sans-serif;
 }
 .hero {
 padding:5vh 15vw 5vh 15vw;
@@ -74,7 +80,7 @@ margin:0;
 font-family: 'Oswald', sans-serif;
 }
 
-#hero_description, .header_link {
+#hero_description{
 font-size: 32px;
 color:#000000;
 }
