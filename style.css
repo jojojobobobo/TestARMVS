@@ -21,7 +21,6 @@ button {
     color: white;
     border-width: 0;
     padding: 8px 20px 8px 20px;
-    font-weight: bold;
     height: 36px;
 }
 
@@ -33,16 +32,15 @@ button {
     flex-flow: row nowrap;
     justify-content: space-between;
     color: #ffffff;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", serif;
     text-transform: uppercase;
 }
 
 .header_logo {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: bolder;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", serif;
 }
 
 .header_image {
@@ -55,20 +53,13 @@ button {
     font-size: 18px;
     color: #000000;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", serif;
 }
 
 .header_link_image {
     width: 5.1798vw;
     height: 4vw;
     vertical-align: middle;
-}
-
-.content_link {
-    font-size: 18px;
-    color: #000000;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
 }
 
 .breadcrumb_nav {
@@ -92,10 +83,11 @@ button {
 .breadcrumb_list {
     overflow-x: auto;
     white-space: nowrap;
+    padding-left: 0.5vw;
 }
 
 .breadcrumb_item {
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", serif;
     font-weight: 400;
     font-size: 12px;
     font-size: 0.75rem;
@@ -171,7 +163,7 @@ button {
     font-weight: bolder;
     margin: 0;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", serif;
 }
 
 #hero_description {
@@ -187,12 +179,38 @@ button {
     object-fit: cover;
 }
 
+.armv {
+    text-align: center;
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.content_link {
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+}
+
 .content_section {
     display: flex;
     flex-direction: column;
     padding-left: 15vw;
     padding-right: 15vw;
     align-items: center;
+    margin:
+}
+
+.content_section_clicks {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    align-items: center;
+    font-size: 25;
 }
 
 #content_section_title {
@@ -260,16 +278,16 @@ button {
 }
 
 .signup_section {
-    margin: 60px 150px 60px 150px;
-    padding: 30px 80px 30px 80px;
-    background-color: #3882f6;
+    margin-top: 60px;
+    padding: 15px 80px 15px 80px;
+    background-color: #008ab1;
     color: #f9faf8;
-    border-radius: 10px;
     border: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: #000;
 }
 
 .signup_text {
@@ -281,10 +299,14 @@ button {
     font-size: 24px;
     font-weight: bolder;
     margin: 0;
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
 }
 
 #signup_message {
     margin: 0;
+    font-family: "Merriweather", serif;
+    font-size: 18px;
 }
 
 .signup_button {
@@ -303,6 +325,21 @@ button {
 }
 
 .footer>p {
-    color: #e5e7eb;
+    color: #ffffff;
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+}
 
+.list_words {
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 15px;
+}
+
+.list {
+    padding-left: 19vw;
+    font-family: "Merriweather", serif;
+    color: #000;
+    font-size: 18px;
 }
