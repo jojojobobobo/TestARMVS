@@ -201,7 +201,16 @@ button {
     padding-left: 15vw;
     padding-right: 15vw;
     align-items: center;
-    margin:
+    font-family: "Oswald", serif;
+}
+
+.content_section_description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    align-items: center;
+    font-family: "Merriweather", serif;
 }
 
 .content_section_clicks {
