@@ -7,7 +7,12 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    color: #FCC917;
+}
+
+.contact{
+    padding-left: 125px;
+    font-family: "Oswald", serif;
+    font-size: 20px;
 }
 
 a {
@@ -305,8 +310,9 @@ button {
 
 .footer>p {
     color: #ffffff;
-    font-family: "Merriweather", serif;
+    font-family: "Oswald", serif;
     font-size: 15px;
+    text-align: center;
 }
 
 .list_words {
