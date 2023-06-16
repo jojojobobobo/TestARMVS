@@ -28,6 +28,21 @@ button {
     height: 36px;
 }
 
+.button1{
+    border-radius: 5px;
+    background-color: #006b54;
+    color: white;
+    border-width: 0;
+    padding: 8px 20px 8px 20px;
+    height: 115px;
+    width: 180px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    font-weight: 100;
+    
+}
+
 .breadcrumb_nav {
     display: none;
 }
@@ -125,8 +140,7 @@ button {
 
 #hero_title {
     color: #f9faf8;
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 50px;
     margin: 0;
     text-transform: uppercase;
     font-family: "Oswald", serif;
