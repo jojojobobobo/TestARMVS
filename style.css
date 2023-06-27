@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-.button {
+button {
     border-radius: 5px;
     background-color: #FFC72C;
     color: white;
